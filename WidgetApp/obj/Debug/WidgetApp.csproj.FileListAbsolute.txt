@@ -1,0 +1,12 @@
+C:\Users\harvj\source\repos\WidgetApp\bin\Debug\WidgetApp.exe.config
+C:\Users\harvj\source\repos\WidgetApp\bin\Debug\WidgetApp.exe
+C:\Users\harvj\source\repos\WidgetApp\bin\Debug\WidgetApp.pdb
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.Properties.Resources.resources
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.csproj.GenerateResource.cache
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.csproj.CoreCompileInputs.cache
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.exe
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.pdb
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.Main.resources
+C:\Users\harvj\source\repos\WidgetApp\obj\Debug\WidgetApp.csproj.AssemblyReference.cache
+C:\Users\harvj\source\repos\WidgetApp\bin\Debug\db.mdf
+C:\Users\harvj\source\repos\WidgetApp\bin\Debug\db_log.ldf

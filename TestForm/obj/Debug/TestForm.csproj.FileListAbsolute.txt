@@ -1,4 +1,0 @@
-C:\Users\harvj\source\repos\TestForm\obj\Debug\TestForm.csproj.AssemblyReference.cache
-C:\Users\harvj\source\repos\TestForm\obj\Debug\TestForm.Properties.Resources.resources
-C:\Users\harvj\source\repos\TestForm\obj\Debug\TestForm.csproj.GenerateResource.cache
-C:\Users\harvj\source\repos\TestForm\obj\Debug\TestForm.csproj.CoreCompileInputs.cache
