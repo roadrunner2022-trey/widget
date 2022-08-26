@@ -66,6 +66,9 @@ namespace WidgetApp
         /* Once the user creates widget, this prepares the data and creates an insert string to pass to db for updating*/
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            btnHide.Visible = false;
+            btnShowWidgets.Visible = true;
+
             if (!FieldsValidated())
             {
                 MessageBox.Show("Please correct errors on form");
@@ -98,6 +101,10 @@ namespace WidgetApp
                 ClearFields();
             }
 
+            btnShowWidgets.Visible = true;
+            btnHide.Visible = false;
+            grid.Rows.Clear();
+            grid.Visible = false;
         }
 
         private string FormatStringForQueryValues(string s)
@@ -179,5 +186,6 @@ namespace WidgetApp
             this.btnShowWidgets.Visible = true;
             this.btnHide.Visible = false;
         }
+
     }
 }

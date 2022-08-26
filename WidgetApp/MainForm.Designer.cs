@@ -30,14 +30,12 @@ namespace WidgetApp
         private void InitializeComponent()
         {
             this.textBoxWidgetName = new System.Windows.Forms.TextBox();
-            this.LblWidgetName = new System.Windows.Forms.Label();
             this.groupBoxWidgetType = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButtonB = new System.Windows.Forms.RadioButton();
             this.radioButtonA = new System.Windows.Forms.RadioButton();
             this.listBoxSubType = new System.Windows.Forms.ListBox();
-            this.lblSubTypes = new System.Windows.Forms.Label();
             this.btnCreate = new System.Windows.Forms.Button();
             this.lblWarningName = new System.Windows.Forms.Label();
             this.lblWarningType = new System.Windows.Forms.Label();
@@ -50,29 +48,25 @@ namespace WidgetApp
             this.sub_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LblWidgetName = new System.Windows.Forms.Label();
+            this.lblSubTypes = new System.Windows.Forms.Label();
             this.groupBoxWidgetType.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxWidgetName
             // 
+            this.textBoxWidgetName.BackColor = System.Drawing.SystemColors.MenuText;
+            this.textBoxWidgetName.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxWidgetName.Location = new System.Drawing.Point(174, 24);
             this.textBoxWidgetName.Name = "textBoxWidgetName";
             this.textBoxWidgetName.Size = new System.Drawing.Size(180, 20);
             this.textBoxWidgetName.TabIndex = 2;
             this.textBoxWidgetName.TextChanged += new System.EventHandler(this.textBoxWidgetName_TextChanged);
             // 
-            // LblWidgetName
-            // 
-            this.LblWidgetName.AutoSize = true;
-            this.LblWidgetName.Location = new System.Drawing.Point(171, 8);
-            this.LblWidgetName.Name = "LblWidgetName";
-            this.LblWidgetName.Size = new System.Drawing.Size(72, 13);
-            this.LblWidgetName.TabIndex = 3;
-            this.LblWidgetName.Text = "Widget Name";
-            // 
             // groupBoxWidgetType
             // 
+            this.groupBoxWidgetType.BackColor = System.Drawing.Color.Transparent;
             this.groupBoxWidgetType.Controls.Add(this.radioButton2);
             this.groupBoxWidgetType.Controls.Add(this.radioButton1);
             this.groupBoxWidgetType.Controls.Add(this.radioButtonB);
@@ -134,6 +128,8 @@ namespace WidgetApp
             // 
             // listBoxSubType
             // 
+            this.listBoxSubType.BackColor = System.Drawing.SystemColors.MenuText;
+            this.listBoxSubType.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.listBoxSubType.FormattingEnabled = true;
             this.listBoxSubType.Location = new System.Drawing.Point(174, 148);
             this.listBoxSubType.Name = "listBoxSubType";
@@ -141,17 +137,9 @@ namespace WidgetApp
             this.listBoxSubType.TabIndex = 7;
             this.listBoxSubType.SelectedIndexChanged += new System.EventHandler(this.subtypeChanged);
             // 
-            // lblSubTypes
-            // 
-            this.lblSubTypes.AutoSize = true;
-            this.lblSubTypes.Location = new System.Drawing.Point(171, 132);
-            this.lblSubTypes.Name = "lblSubTypes";
-            this.lblSubTypes.Size = new System.Drawing.Size(183, 13);
-            this.lblSubTypes.TabIndex = 8;
-            this.lblSubTypes.Text = "Widget Sub-Type (Please select one)";
-            // 
             // btnCreate
             // 
+            this.btnCreate.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnCreate.Location = new System.Drawing.Point(174, 239);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(180, 23);
@@ -163,6 +151,7 @@ namespace WidgetApp
             // lblWarningName
             // 
             this.lblWarningName.AutoSize = true;
+            this.lblWarningName.BackColor = System.Drawing.Color.Transparent;
             this.lblWarningName.ForeColor = System.Drawing.Color.Red;
             this.lblWarningName.Location = new System.Drawing.Point(360, 27);
             this.lblWarningName.Name = "lblWarningName";
@@ -173,6 +162,7 @@ namespace WidgetApp
             // lblWarningType
             // 
             this.lblWarningType.AutoSize = true;
+            this.lblWarningType.BackColor = System.Drawing.Color.Transparent;
             this.lblWarningType.ForeColor = System.Drawing.Color.Red;
             this.lblWarningType.Location = new System.Drawing.Point(360, 85);
             this.lblWarningType.Name = "lblWarningType";
@@ -183,6 +173,7 @@ namespace WidgetApp
             // lblWarningSubType
             // 
             this.lblWarningSubType.AutoSize = true;
+            this.lblWarningSubType.BackColor = System.Drawing.Color.Transparent;
             this.lblWarningSubType.ForeColor = System.Drawing.Color.Red;
             this.lblWarningSubType.Location = new System.Drawing.Point(360, 180);
             this.lblWarningSubType.Name = "lblWarningSubType";
@@ -253,11 +244,33 @@ namespace WidgetApp
             this.time.HeaderText = "Time";
             this.time.Name = "time";
             // 
+            // LblWidgetName
+            // 
+            this.LblWidgetName.AutoSize = true;
+            this.LblWidgetName.BackColor = System.Drawing.Color.Transparent;
+            this.LblWidgetName.Location = new System.Drawing.Point(171, 8);
+            this.LblWidgetName.Name = "LblWidgetName";
+            this.LblWidgetName.Size = new System.Drawing.Size(72, 13);
+            this.LblWidgetName.TabIndex = 3;
+            this.LblWidgetName.Text = "Widget Name";
+            // 
+            // lblSubTypes
+            // 
+            this.lblSubTypes.AutoSize = true;
+            this.lblSubTypes.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubTypes.Location = new System.Drawing.Point(171, 132);
+            this.lblSubTypes.Name = "lblSubTypes";
+            this.lblSubTypes.Size = new System.Drawing.Size(183, 13);
+            this.lblSubTypes.TabIndex = 8;
+            this.lblSubTypes.Text = "Widget Sub-Type (Please select one)";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::WidgetApp.Properties.Resources.background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(543, 560);
             this.Controls.Add(this.grid);
             this.Controls.Add(this.btnHide);
@@ -272,6 +285,7 @@ namespace WidgetApp
             this.Controls.Add(this.LblWidgetName);
             this.Controls.Add(this.textBoxWidgetName);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Widget Creator";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBoxWidgetType.ResumeLayout(false);
@@ -284,14 +298,12 @@ namespace WidgetApp
 
         #endregion
         private System.Windows.Forms.TextBox textBoxWidgetName;
-        private System.Windows.Forms.Label LblWidgetName;
         private System.Windows.Forms.GroupBox groupBoxWidgetType;
         private System.Windows.Forms.RadioButton radioButtonA;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButtonB;
         private System.Windows.Forms.ListBox listBoxSubType;
-        private System.Windows.Forms.Label lblSubTypes;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Label lblWarningName;
         private System.Windows.Forms.Label lblWarningType;
@@ -304,6 +316,8 @@ namespace WidgetApp
         private System.Windows.Forms.DataGridViewTextBoxColumn sub_type;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.DataGridViewTextBoxColumn time;
+        private System.Windows.Forms.Label LblWidgetName;
+        private System.Windows.Forms.Label lblSubTypes;
     }
 }
 
