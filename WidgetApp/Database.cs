@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 namespace WidgetApp
 {
     class Database {
-        /* NOTE: This connects to a AWS RDS database that I setup for the purpose of this app*/
+        /* NOTE: This connects to an AWS RDS database that I setup for the purpose of this app*/
 
         /*
             Connection variables 
