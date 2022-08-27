@@ -104,7 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LocalDB.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

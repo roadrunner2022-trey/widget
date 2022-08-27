@@ -53,6 +53,7 @@ namespace WidgetApp
             this.groupBoxWidgetType.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.SuspendLayout();
+
             // 
             // textBoxWidgetName
             // 
@@ -63,6 +64,7 @@ namespace WidgetApp
             this.textBoxWidgetName.Size = new System.Drawing.Size(180, 20);
             this.textBoxWidgetName.TabIndex = 2;
             this.textBoxWidgetName.TextChanged += new System.EventHandler(this.textBoxWidgetName_TextChanged);
+
             // 
             // groupBoxWidgetType
             // 
@@ -78,29 +80,18 @@ namespace WidgetApp
             this.groupBoxWidgetType.TabStop = false;
             this.groupBoxWidgetType.Text = "Widget Type";
             // 
-            // radioButton2
+            // radioButtonA
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(119, 19);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(31, 17);
-            this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(82, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(31, 17);
-            this.radioButton1.TabIndex = 7;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+            this.radioButtonA.AutoSize = true;
+            this.radioButtonA.Location = new System.Drawing.Point(6, 19);
+            this.radioButtonA.Name = "radioButtonA";
+            this.radioButtonA.Size = new System.Drawing.Size(32, 17);
+            this.radioButtonA.TabIndex = 5;
+            this.radioButtonA.TabStop = true;
+            this.radioButtonA.Text = "A";
+            this.radioButtonA.UseVisualStyleBackColor = true;
+            this.radioButtonA.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+
             // 
             // radioButtonB
             // 
@@ -113,18 +104,33 @@ namespace WidgetApp
             this.radioButtonB.Text = "B";
             this.radioButtonB.UseVisualStyleBackColor = true;
             this.radioButtonB.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+
             // 
-            // radioButtonA
+            // radioButton1
             // 
-            this.radioButtonA.AutoSize = true;
-            this.radioButtonA.Location = new System.Drawing.Point(6, 19);
-            this.radioButtonA.Name = "radioButtonA";
-            this.radioButtonA.Size = new System.Drawing.Size(32, 17);
-            this.radioButtonA.TabIndex = 5;
-            this.radioButtonA.TabStop = true;
-            this.radioButtonA.Text = "A";
-            this.radioButtonA.UseVisualStyleBackColor = true;
-            this.radioButtonA.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(82, 19);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(31, 17);
+            this.radioButton1.TabIndex = 7;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(119, 19);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(31, 17);
+            this.radioButton2.TabIndex = 8;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.checkButtonSelection);
+
             // 
             // listBoxSubType
             // 
@@ -136,6 +142,7 @@ namespace WidgetApp
             this.listBoxSubType.Size = new System.Drawing.Size(180, 69);
             this.listBoxSubType.TabIndex = 7;
             this.listBoxSubType.SelectedIndexChanged += new System.EventHandler(this.subtypeChanged);
+
             // 
             // btnCreate
             // 
@@ -147,6 +154,7 @@ namespace WidgetApp
             this.btnCreate.Text = "Create Widget";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+
             // 
             // lblWarningName
             // 
@@ -158,6 +166,7 @@ namespace WidgetApp
             this.lblWarningName.Size = new System.Drawing.Size(0, 13);
             this.lblWarningName.TabIndex = 10;
             this.lblWarningName.Visible = false;
+
             // 
             // lblWarningType
             // 
@@ -169,6 +178,7 @@ namespace WidgetApp
             this.lblWarningType.Size = new System.Drawing.Size(0, 13);
             this.lblWarningType.TabIndex = 11;
             this.lblWarningType.Visible = false;
+
             // 
             // lblWarningSubType
             // 
@@ -180,6 +190,7 @@ namespace WidgetApp
             this.lblWarningSubType.Size = new System.Drawing.Size(0, 13);
             this.lblWarningSubType.TabIndex = 12;
             this.lblWarningSubType.Visible = false;
+
             // 
             // btnShowWidgets
             // 
@@ -190,6 +201,7 @@ namespace WidgetApp
             this.btnShowWidgets.Text = "Show Widgets in Database";
             this.btnShowWidgets.UseVisualStyleBackColor = true;
             this.btnShowWidgets.Click += new System.EventHandler(this.GetAllWidgets);
+
             // 
             // btnHide
             // 
@@ -201,6 +213,7 @@ namespace WidgetApp
             this.btnHide.UseVisualStyleBackColor = true;
             this.btnHide.Visible = false;
             this.btnHide.Click += new System.EventHandler(this.HideData);
+
             // 
             // grid
             // 
@@ -263,8 +276,9 @@ namespace WidgetApp
             this.lblSubTypes.Size = new System.Drawing.Size(183, 13);
             this.lblSubTypes.TabIndex = 8;
             this.lblSubTypes.Text = "Widget Sub-Type (Please select one)";
+
             // 
-            // MainForm
+            // MainForm components
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -296,6 +310,7 @@ namespace WidgetApp
 
         }
 
+        /* Imports needed for form */
         #endregion
         private System.Windows.Forms.TextBox textBoxWidgetName;
         private System.Windows.Forms.GroupBox groupBoxWidgetType;

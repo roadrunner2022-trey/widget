@@ -3,8 +3,6 @@ C:\Users\harvj\source\repos\WidgetApp\obj\Release\WidgetApp.MainForm.resources
 C:\Users\harvj\source\repos\WidgetApp\obj\Release\WidgetApp.Properties.Resources.resources
 C:\Users\harvj\source\repos\WidgetApp\obj\Release\WidgetApp.csproj.GenerateResource.cache
 C:\Users\harvj\source\repos\WidgetApp\obj\Release\WidgetApp.csproj.CoreCompileInputs.cache
-C:\Users\harvj\source\repos\WidgetApp\bin\Release\widgetDB.mdf
-C:\Users\harvj\source\repos\WidgetApp\bin\Release\widgetDB_log.ldf
 C:\Users\harvj\source\repos\WidgetApp\bin\Release\WidgetApp.exe.config
 C:\Users\harvj\source\repos\WidgetApp\bin\Release\WidgetApp.exe
 C:\Users\harvj\source\repos\WidgetApp\bin\Release\WidgetApp.pdb
